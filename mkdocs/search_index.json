@@ -1,0 +1,394 @@
+{
+    "docs": [
+        {
+            "location": "/", 
+            "text": "", 
+            "title": "Home"
+        }, 
+        {
+            "location": "/uikit/", 
+            "text": "Text Views\n\n\nICON\n\n\naf-icon\n\n\nLABEL\n\n\naf-label\n\n\n\n\nLabels implement a read-only text view. You can use this class to draw one or multiple lines of static text, such as those you might use to identify other parts of your user interface. Label provides support for both simple and complex styling of the label text.\n\n\n\n\nParameters\n\n\nType\n \nlabel-type\n\n\n\n\nheader\n \nHeader\n \n\n\ntitle\n \nTitle\n\n\nsubheader\n \nSubheader\n\n\nbody-1[default]\n \nBody Type 1\n\n\nbody-2\n \nBody2 Type 2\n\n\ncaption\n \nCaption\n\n\nlabel\n \nLabel\n\n\n\n\nColor\n \ncolor\n\n\n\n\n${hexColor}\n \nHex Colors\n\n\nred|orange|yellow|olive|green|teal|blue|violet|purple|pink|brown|grey|black\n \nColor Names\n\n\nprimary|secondary\n \nTheme Colors\n\n\n\n\nDim\n \ndim\n\n\nText\n \ntext\n\n\n\n\n${textVar}\n \ncalculated\n\n\nval\n \nconstant\n\n\n\n\nSamples\n\n\nRed Header\n\n\naf-label(color=\"red\" label-type=\"header\" text=\"Header\")\n\n\n\n\n\n\n\n\n\nDark Subheader\n\n\naf-label(color=\"#000000\" label-type=\"subheader\" text=\"Sub Header\")\n\n\n\n\n\n\n\n\n\nDim Caption\n\n\naf-label(label-type=\"caption\" dim text=\"Caption\")\n\n\n\n\n\n\n\n\n\nInputs\n\n\nRADIO\n\n\naf-radio\n\n\nParameters\n\n\nColor\n \ncolor\n\n\n\n\n${hexColor}\n Hex Colors\n\n\nred|orange|yellow|olive|green|teal|blue|violet|purple|pink|brown|grey|black\n Color Names\n\n\nprimary|secondary\n Theme Colors\n\n\n\n\nSelected\n \nselected\n\n\nValue\n \nvalue\n\n\nDisabled\n  \ndisabled\n\n\nLabel\n \nlabel\n\n\nSamples\n\n\naf-radio(label=\"Male\" value=\"male\" selected)\naf-radio(label=\"Female\" value=\"female\")\n\n\n\n\n\n\n\n\n\nCHECKBOX\n\n\naf-checkbox\n\n\nParameters\n\n\nColor\n \ncolor\n\n\n\n\n${hexColor}\n Hex Colors\n\n\nred|orange|yellow|olive|green|teal|blue|violet|purple|pink|brown|grey|black\n Color Names\n\n\nprimary|secondary\n Theme Colors\n\n\n\n\nSelected\n \nselected\n\n\nValue\n \nvalue\n\n\nDisabled\n  \ndisabled\n\n\nLabel\n \nlabel\n\n\nSamples\n\n\naf-checkbox(label=\"Remember Password\" value=\"remember\" checked)\naf-checkbox(label=\"Accept Terms\" value=\"remember\")\n\n\n\n\n\n\n\n\n\nSWITCH\n\n\naf-switch\n\n\nParameters\n\n\nState\n \nstate\n\n\n\n\non|off\n Boolean\n\n\n\n\nDisabled\n  \ndisabled\n\n\nSamples\n\n\nTo Be Filled\n\n\n\nTEXT FIELD\n\n\naf-text-field\n\n\nParameters\n\n\nDisplay Type\n \ndisplay-type\n\n\n\n\nbasic\n\n\n\n\nInput Type\n \ninput-type\n\n- \ntext\n Text \n- \nnumber\n Number\n- \nmobile\n Mobile\n- \ndate\n Date\n- \ntime\n Time\n\n\nSecure\n \nsecure\n\n\nColor\n \ncolor\n\n\n\n\n${hexColor}\n Hex Colors\n\n\nred|orange|yellow|olive|green|teal|blue|violet|purple|pink|brown|grey|black\n Color Names\n\n\nprimary|secondary\n Theme Colors\n\n\n\n\nDisabled\n \ndisabled\n\n\nPlaceholder\n \nplaceholder\n\n\nSamples\n\n\naf-text-field(placeholder=\"Enter your email\")\n\n\n\n\n\n\n\n\n\nSLIDER\n\n\naf-slider\n\n\nParameters\n\n\nColor\n \ncolor\n\n\n\n\n${hexColor}\n Hex Colors\n\n\nred|orange|yellow|olive|green|teal|blue|violet|purple|pink|brown|grey|black\n Color Names\n\n\nprimary|secondary\n Theme Colors\n\n\n\n\nValue\n \nvalue\n\n\nMin\n \nmin\n\n\nMax\n \nmax\n\n\nDisabled\n \ndisabled\n\n\nBUTTON\n\n\naf-button\n\n\nParameters\n\n\nText\n \ntext\n\n\nType\n \ntype\n\n\n\n\ncircular|basic\n Circular\n\n\n\n\nIcon\n \nicon\n\n\n\n\nicon\n Icon Value\n\n\n\n\nDisabled\n \ndisabled\n\n\nMaps\n\n\naf-map-view\n\n\nParameters\n\n\nLatitude\n \nlat\n\n\nLongitude\n \nlng\n\n\nheight \nheight\n\n\neditable \neditable\n\n\npins \npins\n\n\nPlaceSearch\n\n\naf-location-picker\n\n\nRating\n\n\naf-rating-view\n\n\nContactSearch\n\n\naf-contact-picker\n\n\nSearchView\n\n\naf-search-view\n\n\nMedia\n\n\n\n\nImage\n\n\naf-image-view\n\n\nParameters\n\n\nCircular \ncircular\n\n\nImageUrl \nimage-url\n\n\nwidth \nwidth\n\n\nheight \nheight\n\n\nurl \nurl\n\n\nVideo\n\n\naf-video-view\n\n\nParameters\n\n\nThumbUrl \nimage-url\n\n\nVideoUrl \nvideo-url\n\n\nheight \nheight\n\n\nurl \nurl\n\n\nMediaPicker\n\n\naf-media-picker\n\n\nProgressView\n\n\naf-progress-view\n\n\nParameters\n\n\nThumbUrl \nimage-url\n\n\nVideoUrl \nvideo-url\n\n\nheight \nheight\n\n\nurl \nurl\n\n\nLayouts\n\n\n\n\nScrollView\n\n\nFlex Layout\n\n\naf-layout\n\n\nParameters\n\n\ndirection \ndirection\n\n\ntappable \ntappable\n\n\nslidable \nslidable\n\n\nbackground \nbackground\n\n\n\n\nrow|column\n\n\n\n\nCollections\n\n\n\n\nListView\n\n\naf-list-view\n\n\nParameters\n\n\nCollection \ncollection\n\n\nSlideView\n\n\naf-slide-view\n\n\nParameters\n\n\nCollection \ncollection\n\n\nEvents\n\n\nScope\n\n\nSystem Calls", 
+            "title": "AppsFly UIKit"
+        }, 
+        {
+            "location": "/uikit/#text-views", 
+            "text": "", 
+            "title": "Text Views"
+        }, 
+        {
+            "location": "/uikit/#icon", 
+            "text": "af-icon", 
+            "title": "ICON"
+        }, 
+        {
+            "location": "/uikit/#label", 
+            "text": "af-label   Labels implement a read-only text view. You can use this class to draw one or multiple lines of static text, such as those you might use to identify other parts of your user interface. Label provides support for both simple and complex styling of the label text.", 
+            "title": "LABEL"
+        }, 
+        {
+            "location": "/uikit/#parameters", 
+            "text": "Type   label-type   header   Header    title   Title  subheader   Subheader  body-1[default]   Body Type 1  body-2   Body2 Type 2  caption   Caption  label   Label   Color   color   ${hexColor}   Hex Colors  red|orange|yellow|olive|green|teal|blue|violet|purple|pink|brown|grey|black   Color Names  primary|secondary   Theme Colors   Dim   dim  Text   text   ${textVar}   calculated  val   constant", 
+            "title": "Parameters"
+        }, 
+        {
+            "location": "/uikit/#samples", 
+            "text": "Red Header  af-label(color=\"red\" label-type=\"header\" text=\"Header\")     Dark Subheader  af-label(color=\"#000000\" label-type=\"subheader\" text=\"Sub Header\")     Dim Caption  af-label(label-type=\"caption\" dim text=\"Caption\")", 
+            "title": "Samples"
+        }, 
+        {
+            "location": "/uikit/#inputs", 
+            "text": "", 
+            "title": "Inputs"
+        }, 
+        {
+            "location": "/uikit/#radio", 
+            "text": "af-radio", 
+            "title": "RADIO"
+        }, 
+        {
+            "location": "/uikit/#parameters_1", 
+            "text": "Color   color   ${hexColor}  Hex Colors  red|orange|yellow|olive|green|teal|blue|violet|purple|pink|brown|grey|black  Color Names  primary|secondary  Theme Colors   Selected   selected  Value   value  Disabled    disabled  Label   label", 
+            "title": "Parameters"
+        }, 
+        {
+            "location": "/uikit/#samples_1", 
+            "text": "af-radio(label=\"Male\" value=\"male\" selected)\naf-radio(label=\"Female\" value=\"female\")", 
+            "title": "Samples"
+        }, 
+        {
+            "location": "/uikit/#checkbox", 
+            "text": "af-checkbox", 
+            "title": "CHECKBOX"
+        }, 
+        {
+            "location": "/uikit/#parameters_2", 
+            "text": "Color   color   ${hexColor}  Hex Colors  red|orange|yellow|olive|green|teal|blue|violet|purple|pink|brown|grey|black  Color Names  primary|secondary  Theme Colors   Selected   selected  Value   value  Disabled    disabled  Label   label", 
+            "title": "Parameters"
+        }, 
+        {
+            "location": "/uikit/#samples_2", 
+            "text": "af-checkbox(label=\"Remember Password\" value=\"remember\" checked)\naf-checkbox(label=\"Accept Terms\" value=\"remember\")", 
+            "title": "Samples"
+        }, 
+        {
+            "location": "/uikit/#switch", 
+            "text": "af-switch", 
+            "title": "SWITCH"
+        }, 
+        {
+            "location": "/uikit/#parameters_3", 
+            "text": "State   state   on|off  Boolean   Disabled    disabled", 
+            "title": "Parameters"
+        }, 
+        {
+            "location": "/uikit/#samples_3", 
+            "text": "To Be Filled", 
+            "title": "Samples"
+        }, 
+        {
+            "location": "/uikit/#text-field", 
+            "text": "af-text-field", 
+            "title": "TEXT FIELD"
+        }, 
+        {
+            "location": "/uikit/#parameters_4", 
+            "text": "Display Type   display-type   basic   Input Type   input-type \n-  text  Text \n-  number  Number\n-  mobile  Mobile\n-  date  Date\n-  time  Time  Secure   secure  Color   color   ${hexColor}  Hex Colors  red|orange|yellow|olive|green|teal|blue|violet|purple|pink|brown|grey|black  Color Names  primary|secondary  Theme Colors   Disabled   disabled  Placeholder   placeholder", 
+            "title": "Parameters"
+        }, 
+        {
+            "location": "/uikit/#samples_4", 
+            "text": "af-text-field(placeholder=\"Enter your email\")", 
+            "title": "Samples"
+        }, 
+        {
+            "location": "/uikit/#slider", 
+            "text": "af-slider", 
+            "title": "SLIDER"
+        }, 
+        {
+            "location": "/uikit/#parameters_5", 
+            "text": "Color   color   ${hexColor}  Hex Colors  red|orange|yellow|olive|green|teal|blue|violet|purple|pink|brown|grey|black  Color Names  primary|secondary  Theme Colors   Value   value  Min   min  Max   max  Disabled   disabled", 
+            "title": "Parameters"
+        }, 
+        {
+            "location": "/uikit/#button", 
+            "text": "af-button", 
+            "title": "BUTTON"
+        }, 
+        {
+            "location": "/uikit/#parameters_6", 
+            "text": "Text   text  Type   type   circular|basic  Circular   Icon   icon   icon  Icon Value   Disabled   disabled", 
+            "title": "Parameters"
+        }, 
+        {
+            "location": "/uikit/#maps", 
+            "text": "af-map-view", 
+            "title": "Maps"
+        }, 
+        {
+            "location": "/uikit/#parameters_7", 
+            "text": "Latitude   lat  Longitude   lng", 
+            "title": "Parameters"
+        }, 
+        {
+            "location": "/uikit/#height-height", 
+            "text": "", 
+            "title": "height height"
+        }, 
+        {
+            "location": "/uikit/#editable-editable", 
+            "text": "", 
+            "title": "editable editable"
+        }, 
+        {
+            "location": "/uikit/#pins-pins", 
+            "text": "", 
+            "title": "pins pins"
+        }, 
+        {
+            "location": "/uikit/#placesearch", 
+            "text": "af-location-picker", 
+            "title": "PlaceSearch"
+        }, 
+        {
+            "location": "/uikit/#rating", 
+            "text": "af-rating-view", 
+            "title": "Rating"
+        }, 
+        {
+            "location": "/uikit/#contactsearch", 
+            "text": "af-contact-picker", 
+            "title": "ContactSearch"
+        }, 
+        {
+            "location": "/uikit/#searchview", 
+            "text": "af-search-view", 
+            "title": "SearchView"
+        }, 
+        {
+            "location": "/uikit/#media", 
+            "text": "", 
+            "title": "Media"
+        }, 
+        {
+            "location": "/uikit/#image", 
+            "text": "af-image-view", 
+            "title": "Image"
+        }, 
+        {
+            "location": "/uikit/#parameters_8", 
+            "text": "", 
+            "title": "Parameters"
+        }, 
+        {
+            "location": "/uikit/#circular-circular", 
+            "text": "", 
+            "title": "Circular circular"
+        }, 
+        {
+            "location": "/uikit/#imageurl-image-url", 
+            "text": "", 
+            "title": "ImageUrl image-url"
+        }, 
+        {
+            "location": "/uikit/#width-width", 
+            "text": "", 
+            "title": "width width"
+        }, 
+        {
+            "location": "/uikit/#height-height_1", 
+            "text": "", 
+            "title": "height height"
+        }, 
+        {
+            "location": "/uikit/#url-url", 
+            "text": "", 
+            "title": "url url"
+        }, 
+        {
+            "location": "/uikit/#video", 
+            "text": "af-video-view", 
+            "title": "Video"
+        }, 
+        {
+            "location": "/uikit/#parameters_9", 
+            "text": "", 
+            "title": "Parameters"
+        }, 
+        {
+            "location": "/uikit/#thumburl-image-url", 
+            "text": "", 
+            "title": "ThumbUrl image-url"
+        }, 
+        {
+            "location": "/uikit/#videourl-video-url", 
+            "text": "", 
+            "title": "VideoUrl video-url"
+        }, 
+        {
+            "location": "/uikit/#height-height_2", 
+            "text": "", 
+            "title": "height height"
+        }, 
+        {
+            "location": "/uikit/#url-url_1", 
+            "text": "", 
+            "title": "url url"
+        }, 
+        {
+            "location": "/uikit/#mediapicker", 
+            "text": "af-media-picker", 
+            "title": "MediaPicker"
+        }, 
+        {
+            "location": "/uikit/#progressview", 
+            "text": "af-progress-view", 
+            "title": "ProgressView"
+        }, 
+        {
+            "location": "/uikit/#parameters_10", 
+            "text": "", 
+            "title": "Parameters"
+        }, 
+        {
+            "location": "/uikit/#thumburl-image-url_1", 
+            "text": "", 
+            "title": "ThumbUrl image-url"
+        }, 
+        {
+            "location": "/uikit/#videourl-video-url_1", 
+            "text": "", 
+            "title": "VideoUrl video-url"
+        }, 
+        {
+            "location": "/uikit/#height-height_3", 
+            "text": "", 
+            "title": "height height"
+        }, 
+        {
+            "location": "/uikit/#url-url_2", 
+            "text": "", 
+            "title": "url url"
+        }, 
+        {
+            "location": "/uikit/#layouts", 
+            "text": "", 
+            "title": "Layouts"
+        }, 
+        {
+            "location": "/uikit/#scrollview", 
+            "text": "", 
+            "title": "ScrollView"
+        }, 
+        {
+            "location": "/uikit/#flex-layout", 
+            "text": "af-layout", 
+            "title": "Flex Layout"
+        }, 
+        {
+            "location": "/uikit/#parameters_11", 
+            "text": "", 
+            "title": "Parameters"
+        }, 
+        {
+            "location": "/uikit/#direction-direction", 
+            "text": "", 
+            "title": "direction direction"
+        }, 
+        {
+            "location": "/uikit/#tappable-tappable", 
+            "text": "", 
+            "title": "tappable tappable"
+        }, 
+        {
+            "location": "/uikit/#slidable-slidable", 
+            "text": "", 
+            "title": "slidable slidable"
+        }, 
+        {
+            "location": "/uikit/#background-background", 
+            "text": "row|column", 
+            "title": "background background"
+        }, 
+        {
+            "location": "/uikit/#collections", 
+            "text": "", 
+            "title": "Collections"
+        }, 
+        {
+            "location": "/uikit/#listview", 
+            "text": "af-list-view", 
+            "title": "ListView"
+        }, 
+        {
+            "location": "/uikit/#parameters_12", 
+            "text": "", 
+            "title": "Parameters"
+        }, 
+        {
+            "location": "/uikit/#collection-collection", 
+            "text": "", 
+            "title": "Collection collection"
+        }, 
+        {
+            "location": "/uikit/#slideview", 
+            "text": "af-slide-view", 
+            "title": "SlideView"
+        }, 
+        {
+            "location": "/uikit/#parameters_13", 
+            "text": "", 
+            "title": "Parameters"
+        }, 
+        {
+            "location": "/uikit/#collection-collection_1", 
+            "text": "", 
+            "title": "Collection collection"
+        }, 
+        {
+            "location": "/uikit/#events", 
+            "text": "", 
+            "title": "Events"
+        }, 
+        {
+            "location": "/uikit/#scope", 
+            "text": "", 
+            "title": "Scope"
+        }, 
+        {
+            "location": "/uikit/#system-calls", 
+            "text": "", 
+            "title": "System Calls"
+        }, 
+        {
+            "location": "/android-sdk/", 
+            "text": "Android SDK\n\n\nDocumentation will be updated soon. Please bear with the delay!", 
+            "title": "Android SDK"
+        }, 
+        {
+            "location": "/android-sdk/#android-sdk", 
+            "text": "Documentation will be updated soon. Please bear with the delay!", 
+            "title": "Android SDK"
+        }, 
+        {
+            "location": "/ios-sdk/", 
+            "text": "iOS SDK\n\n\nDocumentation will be updated soon. Please bear with the delay!", 
+            "title": "IOS SDK"
+        }, 
+        {
+            "location": "/ios-sdk/#ios-sdk", 
+            "text": "Documentation will be updated soon. Please bear with the delay!", 
+            "title": "iOS SDK"
+        }, 
+        {
+            "location": "/web-sdk/", 
+            "text": "Web SDK\n\n\nDocumentation will be updated soon. Please bear with the delay!", 
+            "title": "Web SDK"
+        }, 
+        {
+            "location": "/web-sdk/#web-sdk", 
+            "text": "Documentation will be updated soon. Please bear with the delay!", 
+            "title": "Web SDK"
+        }
+    ]
+}

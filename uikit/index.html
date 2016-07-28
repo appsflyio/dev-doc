@@ -1,0 +1,444 @@
+<!DOCTYPE html>
+<!--[if IE 8]><html class="no-js lt-ie9" lang="en" > <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en" > <!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  
+  
+  <title>AppsFly UIKit - developers@appsfly.io</title>
+  
+
+  <link rel="shortcut icon" href="../img/favicon.ico">
+
+  
+  <link href='https://fonts.googleapis.com/css?family=Lato:400,700|Roboto+Slab:400,700|Inconsolata:400,700' rel='stylesheet' type='text/css'>
+
+  <link rel="stylesheet" href="../css/theme.css" type="text/css" />
+  <link rel="stylesheet" href="../css/theme_extra.css" type="text/css" />
+  <link rel="stylesheet" href="../css/highlight.css">
+
+  
+  <script>
+    // Current page data
+    var mkdocs_page_name = "AppsFly UIKit";
+    var mkdocs_page_input_path = "uikit.md";
+    var mkdocs_page_url = "/uikit/";
+  </script>
+  
+  <script src="../js/jquery-2.1.1.min.js"></script>
+  <script src="../js/modernizr-2.8.3.min.js"></script>
+  <script type="text/javascript" src="../js/highlight.pack.js"></script>
+  <script src="../js/theme.js"></script> 
+
+  
+</head>
+
+<body class="wy-body-for-nav" role="document">
+
+  <div class="wy-grid-for-nav">
+
+    
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side stickynav">
+      <div class="wy-side-nav-search">
+        <a href=".." class="icon icon-home"> developers@appsfly.io</a>
+        <div role="search">
+  <form id ="rtd-search-form" class="wy-form" action="../search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" />
+  </form>
+</div>
+      </div>
+
+      <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="main navigation">
+        <ul class="current">
+          
+            <li>
+    <li class="toctree-l1 ">
+        <a class="" href="..">Home</a>
+        
+    </li>
+<li>
+          
+            <li>
+    <li class="toctree-l1 current">
+        <a class="current" href="./">AppsFly UIKit</a>
+        
+            <ul>
+            
+                <li class="toctree-l3"><a href="#text-views">Text Views</a></li>
+                
+                    <li><a class="toctree-l4" href="#icon">ICON</a></li>
+                
+                    <li><a class="toctree-l4" href="#label">LABEL</a></li>
+                
+            
+                <li class="toctree-l3"><a href="#inputs">Inputs</a></li>
+                
+                    <li><a class="toctree-l4" href="#radio">RADIO</a></li>
+                
+                    <li><a class="toctree-l4" href="#checkbox">CHECKBOX</a></li>
+                
+                    <li><a class="toctree-l4" href="#switch">SWITCH</a></li>
+                
+                    <li><a class="toctree-l4" href="#text-field">TEXT FIELD</a></li>
+                
+                    <li><a class="toctree-l4" href="#slider">SLIDER</a></li>
+                
+                    <li><a class="toctree-l4" href="#button">BUTTON</a></li>
+                
+                    <li><a class="toctree-l4" href="#maps">Maps</a></li>
+                
+                    <li><a class="toctree-l4" href="#placesearch">PlaceSearch</a></li>
+                
+                    <li><a class="toctree-l4" href="#rating">Rating</a></li>
+                
+                    <li><a class="toctree-l4" href="#contactsearch">ContactSearch</a></li>
+                
+                    <li><a class="toctree-l4" href="#searchview">SearchView</a></li>
+                
+                    <li><a class="toctree-l4" href="#media">Media</a></li>
+                
+                    <li><a class="toctree-l4" href="#layouts">Layouts</a></li>
+                
+                    <li><a class="toctree-l4" href="#collections">Collections</a></li>
+                
+            
+                <li class="toctree-l3"><a href="#events">Events</a></li>
+                
+            
+                <li class="toctree-l3"><a href="#scope">Scope</a></li>
+                
+            
+                <li class="toctree-l3"><a href="#system-calls">System Calls</a></li>
+                
+            
+            </ul>
+        
+    </li>
+<li>
+          
+            <li>
+    <li class="toctree-l1 ">
+        <a class="" href="../android-sdk/">Android SDK</a>
+        
+    </li>
+<li>
+          
+            <li>
+    <li class="toctree-l1 ">
+        <a class="" href="../ios-sdk/">IOS SDK</a>
+        
+    </li>
+<li>
+          
+            <li>
+    <li class="toctree-l1 ">
+        <a class="" href="../web-sdk/">Web SDK</a>
+        
+    </li>
+<li>
+          
+        </ul>
+      </div>
+      &nbsp;
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+
+      
+      <nav class="wy-nav-top" role="navigation" aria-label="top navigation">
+        <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+        <a href="..">developers@appsfly.io</a>
+      </nav>
+
+      
+      <div class="wy-nav-content">
+        <div class="rst-content">
+          <div role="navigation" aria-label="breadcrumbs navigation">
+  <ul class="wy-breadcrumbs">
+    <li><a href="..">Docs</a> &raquo;</li>
+    
+      
+    
+    <li>AppsFly UIKit</li>
+    <li class="wy-breadcrumbs-aside">
+      
+    </li>
+  </ul>
+  <hr/>
+</div>
+          <div role="main">
+            <div class="section">
+              
+                <h2 id="text-views">Text Views</h2>
+<h3 id="icon">ICON</h3>
+<p><code>af-icon</code></p>
+<h3 id="label">LABEL</h3>
+<p><code>af-label</code></p>
+<blockquote>
+<p>Labels implement a read-only text view. You can use this class to draw one or multiple lines of static text, such as those you might use to identify other parts of your user interface. Label provides support for both simple and complex styling of the label text.</p>
+</blockquote>
+<h4 id="parameters">Parameters</h4>
+<p><strong>Type</strong> <code>label-type</code></p>
+<ul>
+<li><code>header</code> <em>Header</em> </li>
+<li><code>title</code> <em>Title</em></li>
+<li><code>subheader</code> <em>Subheader</em></li>
+<li><code>body-1[default]</code> <em>Body Type 1</em></li>
+<li><code>body-2</code> <em>Body2 Type 2</em></li>
+<li><code>caption</code> <em>Caption</em></li>
+<li><code>label</code> <em>Label</em></li>
+</ul>
+<p><strong>Color</strong> <code>color</code></p>
+<ul>
+<li><code>${hexColor}</code> <em>Hex Colors</em></li>
+<li><code>red|orange|yellow|olive|green|teal|blue|violet|purple|pink|brown|grey|black</code> <em>Color Names</em></li>
+<li><code>primary|secondary</code> <em>Theme Colors</em></li>
+</ul>
+<p><strong>Dim</strong> <code>dim</code></p>
+<p><strong>Text</strong> <code>text</code></p>
+<ul>
+<li><code>${textVar}</code> <em>calculated</em></li>
+<li><code>val</code> <em>constant</em></li>
+</ul>
+<h4 id="samples">Samples</h4>
+<p>Red Header</p>
+<pre><code>af-label(color="red" label-type="header" text="Header")
+</code></pre>
+<blockquote>
+<p><img alt="" src="../images/sample1.png" /></p>
+</blockquote>
+<p>Dark Subheader</p>
+<pre><code>af-label(color="#000000" label-type="subheader" text="Sub Header")
+</code></pre>
+<blockquote>
+<p><img alt="" src="../images/sample2.png" /></p>
+</blockquote>
+<p>Dim Caption</p>
+<pre><code>af-label(label-type="caption" dim text="Caption")
+</code></pre>
+<blockquote>
+<p><img alt="" src="../images/sample3.png" /></p>
+</blockquote>
+<h2 id="inputs">Inputs</h2>
+<h3 id="radio">RADIO</h3>
+<p><code>af-radio</code></p>
+<h5 id="parameters_1">Parameters</h5>
+<p><strong>Color</strong> <code>color</code></p>
+<ul>
+<li><code>${hexColor}</code> Hex Colors</li>
+<li><code>red|orange|yellow|olive|green|teal|blue|violet|purple|pink|brown|grey|black</code> Color Names</li>
+<li><code>primary|secondary</code> Theme Colors</li>
+</ul>
+<p><strong>Selected</strong> <code>selected</code></p>
+<p><strong>Value</strong> <code>value</code></p>
+<p><strong>Disabled</strong>  <code>disabled</code></p>
+<p><strong>Label</strong> <code>label</code></p>
+<h4 id="samples_1">Samples</h4>
+<pre><code>af-radio(label="Male" value="male" selected)
+af-radio(label="Female" value="female")
+</code></pre>
+<blockquote>
+<p><img alt="" src="../images/sample4.png" /></p>
+</blockquote>
+<h3 id="checkbox">CHECKBOX</h3>
+<p><code>af-checkbox</code></p>
+<h5 id="parameters_2">Parameters</h5>
+<p><strong>Color</strong> <code>color</code></p>
+<ul>
+<li><code>${hexColor}</code> Hex Colors</li>
+<li><code>red|orange|yellow|olive|green|teal|blue|violet|purple|pink|brown|grey|black</code> Color Names</li>
+<li><code>primary|secondary</code> Theme Colors</li>
+</ul>
+<p><strong>Selected</strong> <code>selected</code></p>
+<p><strong>Value</strong> <code>value</code></p>
+<p><strong>Disabled</strong>  <code>disabled</code></p>
+<p><strong>Label</strong> <code>label</code></p>
+<h4 id="samples_2">Samples</h4>
+<pre><code>af-checkbox(label="Remember Password" value="remember" checked)
+af-checkbox(label="Accept Terms" value="remember")
+</code></pre>
+<blockquote>
+<p><img alt="" src="../images/sample5.png" /></p>
+</blockquote>
+<h3 id="switch">SWITCH</h3>
+<p><code>af-switch</code></p>
+<h5 id="parameters_3">Parameters</h5>
+<p><strong>State</strong> <code>state</code></p>
+<ul>
+<li><code>on|off</code> Boolean</li>
+</ul>
+<p><strong>Disabled</strong>  <code>disabled</code></p>
+<h4 id="samples_3">Samples</h4>
+<pre><code>To Be Filled
+</code></pre>
+<h3 id="text-field">TEXT FIELD</h3>
+<p><code>af-text-field</code></p>
+<h5 id="parameters_4">Parameters</h5>
+<p><strong>Display Type</strong> <code>display-type</code></p>
+<ul>
+<li><code>basic</code></li>
+</ul>
+<p><strong>Input Type</strong> <code>input-type</code>
+- <code>text</code> Text 
+- <code>number</code> Number
+- <code>mobile</code> Mobile
+- <code>date</code> Date
+- <code>time</code> Time</p>
+<p><strong>Secure</strong> <code>secure</code></p>
+<p><strong>Color</strong> <code>color</code></p>
+<ul>
+<li><code>${hexColor}</code> Hex Colors</li>
+<li><code>red|orange|yellow|olive|green|teal|blue|violet|purple|pink|brown|grey|black</code> Color Names</li>
+<li><code>primary|secondary</code> Theme Colors</li>
+</ul>
+<p><strong>Disabled</strong> <code>disabled</code></p>
+<p><strong>Placeholder</strong> <code>placeholder</code></p>
+<h4 id="samples_4">Samples</h4>
+<pre><code>af-text-field(placeholder="Enter your email")
+</code></pre>
+<blockquote>
+<p><img alt="" src="../images/sample6.png" /></p>
+</blockquote>
+<h3 id="slider">SLIDER</h3>
+<p><code>af-slider</code></p>
+<h5 id="parameters_5">Parameters</h5>
+<p><strong>Color</strong> <code>color</code></p>
+<ul>
+<li><code>${hexColor}</code> Hex Colors</li>
+<li><code>red|orange|yellow|olive|green|teal|blue|violet|purple|pink|brown|grey|black</code> Color Names</li>
+<li><code>primary|secondary</code> Theme Colors</li>
+</ul>
+<p><strong>Value</strong> <code>value</code></p>
+<p><strong>Min</strong> <code>min</code></p>
+<p><strong>Max</strong> <code>max</code></p>
+<p><strong>Disabled</strong> <code>disabled</code></p>
+<h3 id="button">BUTTON</h3>
+<p><code>af-button</code></p>
+<h5 id="parameters_6">Parameters</h5>
+<p><strong>Text</strong> <code>text</code>
+<strong>Type</strong> <code>type</code></p>
+<ul>
+<li><code>circular|basic</code> Circular</li>
+</ul>
+<p><strong>Icon</strong> <code>icon</code></p>
+<ul>
+<li><code>icon</code> Icon Value</li>
+</ul>
+<p><strong>Disabled</strong> <code>disabled</code></p>
+<h3 id="maps">Maps</h3>
+<p><code>af-map-view</code></p>
+<h5 id="parameters_7">Parameters</h5>
+<p><strong>Latitude</strong> <code>lat</code></p>
+<p><strong>Longitude</strong> <code>lng</code></p>
+<h6 id="height-height">height <code>height</code></h6>
+<h6 id="editable-editable">editable <code>editable</code></h6>
+<h6 id="pins-pins">pins <code>pins</code></h6>
+<h3 id="placesearch">PlaceSearch</h3>
+<p><code>af-location-picker</code></p>
+<h3 id="rating">Rating</h3>
+<p><code>af-rating-view</code></p>
+<h3 id="contactsearch">ContactSearch</h3>
+<p><code>af-contact-picker</code></p>
+<h3 id="searchview">SearchView</h3>
+<p><code>af-search-view</code></p>
+<h3 id="media">Media</h3>
+<hr />
+<h4 id="image">Image</h4>
+<p><code>af-image-view</code></p>
+<h5 id="parameters_8">Parameters</h5>
+<h6 id="circular-circular">Circular <code>circular</code></h6>
+<h6 id="imageurl-image-url">ImageUrl <code>image-url</code></h6>
+<h6 id="width-width">width <code>width</code></h6>
+<h6 id="height-height_1">height <code>height</code></h6>
+<h6 id="url-url">url <code>url</code></h6>
+<h4 id="video">Video</h4>
+<p><code>af-video-view</code></p>
+<h5 id="parameters_9">Parameters</h5>
+<h6 id="thumburl-image-url">ThumbUrl <code>image-url</code></h6>
+<h6 id="videourl-video-url">VideoUrl <code>video-url</code></h6>
+<h6 id="height-height_2">height <code>height</code></h6>
+<h6 id="url-url_1">url <code>url</code></h6>
+<h4 id="mediapicker">MediaPicker</h4>
+<p><code>af-media-picker</code></p>
+<h4 id="progressview">ProgressView</h4>
+<p><code>af-progress-view</code></p>
+<h5 id="parameters_10">Parameters</h5>
+<h6 id="thumburl-image-url_1">ThumbUrl <code>image-url</code></h6>
+<h6 id="videourl-video-url_1">VideoUrl <code>video-url</code></h6>
+<h6 id="height-height_3">height <code>height</code></h6>
+<h6 id="url-url_2">url <code>url</code></h6>
+<h3 id="layouts">Layouts</h3>
+<hr />
+<h4 id="scrollview">ScrollView</h4>
+<h4 id="flex-layout">Flex Layout</h4>
+<p><code>af-layout</code></p>
+<h5 id="parameters_11">Parameters</h5>
+<h6 id="direction-direction">direction <code>direction</code></h6>
+<h6 id="tappable-tappable">tappable <code>tappable</code></h6>
+<h6 id="slidable-slidable">slidable <code>slidable</code></h6>
+<h6 id="background-background">background <code>background</code></h6>
+<ul>
+<li><code>row|column</code></li>
+</ul>
+<h3 id="collections">Collections</h3>
+<hr />
+<h4 id="listview">ListView</h4>
+<p><code>af-list-view</code></p>
+<h5 id="parameters_12">Parameters</h5>
+<h6 id="collection-collection">Collection <code>collection</code></h6>
+<h4 id="slideview">SlideView</h4>
+<p><code>af-slide-view</code></p>
+<h5 id="parameters_13">Parameters</h5>
+<h6 id="collection-collection_1">Collection <code>collection</code></h6>
+<h2 id="events">Events</h2>
+<h2 id="scope">Scope</h2>
+<h2 id="system-calls">System Calls</h2>
+              
+            </div>
+          </div>
+          <footer>
+  
+    <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
+      
+        <a href="../android-sdk/" class="btn btn-neutral float-right" title="Android SDK">Next <span class="icon icon-circle-arrow-right"></span></a>
+      
+      
+        <a href=".." class="btn btn-neutral" title="Home"><span class="icon icon-circle-arrow-left"></span> Previous</a>
+      
+    </div>
+  
+
+  <hr/>
+
+  <div role="contentinfo">
+    <!-- Copyright etc -->
+    
+  </div>
+
+  Built with <a href="http://www.mkdocs.org">MkDocs</a> using a <a href="https://github.com/snide/sphinx_rtd_theme">theme</a> provided by <a href="https://readthedocs.org">Read the Docs</a>.
+</footer>
+	  
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+
+<div class="rst-versions" role="note" style="cursor: pointer">
+    <span class="rst-current-version" data-toggle="rst-current-version">
+      
+      
+        <span><a href=".." style="color: #fcfcfc;">&laquo; Previous</a></span>
+      
+      
+        <span style="margin-left: 15px"><a href="../android-sdk/" style="color: #fcfcfc">Next &raquo;</a></span>
+      
+    </span>
+</div>
+
+</body>
+</html>
